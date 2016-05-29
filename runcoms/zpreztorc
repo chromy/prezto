@@ -34,7 +34,6 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'python' \
   'osx' \
-  'syntax-highlighting' \
   'history-substring-search' \
   'completion' \
   'prompt'
@@ -168,3 +167,4 @@ zstyle ':prezto:module:terminal' auto-title 'yes'
 
 # Integrate with iTerm2.
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
+#
