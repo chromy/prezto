@@ -12,3 +12,28 @@ fi
 
 # Customize to your needs...
 alias clock='~/src/tty-clock/tty-clock -s -c -C7'
+alias vi='vim'
+
+# Go
+export GOROOT='/usr/local/Cellar/go/1.0.3'
+export GOPATH=$HOME/mygo
+export PATH=$PATH:$GOROOT:$GOPATH
+
+# Ruby
+export PATH=$(brew --prefix ruby)/bin:$PATH
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+
+# Add ~/bin
+export PATH=$HOME/bin:$HOME/scripts:$PATH
+export PATH=$HOME/bin/inklecate:$PATH
+
+# gitignore
+function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
+
+# Language
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/'
+export PATH="$PATH:$HOME/proj/bazel/output"
+
+# Haxe
+export HAXE_STD_PATH="/usr/local/lib/haxe/std"
+
