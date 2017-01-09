@@ -9,6 +9,9 @@ fi
 alias clock='~/src/tty-clock/tty-clock -s -c -C7'
 alias vi='vim'
 
+# Homebrew
+export PATH=$PATH:$HOME/homebrew/bin
+
 # Go
 export GOROOT='/usr/local/Cellar/go/1.0.3'
 export GOPATH=$HOME/mygo
