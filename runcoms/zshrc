@@ -1,9 +1,4 @@
-#
 # Executes commands at the start of an interactive session.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
@@ -21,7 +16,6 @@ export PATH=$PATH:$GOROOT:$GOPATH
 
 # Ruby
 export PATH=$(brew --prefix ruby)/bin:$PATH
-source /usr/local/opt/chruby/share/chruby/chruby.sh
 
 # Add ~/bin
 export PATH=$HOME/bin:$HOME/scripts:$PATH
