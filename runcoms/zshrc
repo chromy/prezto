@@ -34,3 +34,5 @@ export PATH="$PATH:$HOME/proj/bazel/output"
 # Haxe
 export HAXE_STD_PATH="/usr/local/lib/haxe/std"
 
+# Chromium review tools
+export PATH=$HOME/proj/depot_tools:"$PATH"
